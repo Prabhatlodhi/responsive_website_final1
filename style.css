@@ -47,7 +47,7 @@
 
 .top_most_strip {
   justify-content: var(--justify_space_between);
-  
+
   max-width: 1400px;
   margin: 0 auto;
   /* padding: 1%; */
@@ -75,8 +75,6 @@
   border: none;
   color: rgb(150, 150, 150);
 }
-
- 
 
 /* TOP MOST SOCIAL MEDIA LINKS PORTION ENDS HERE */
 /* ==========SEARCH BAR PART STARTS HERE  ======== */
@@ -128,7 +126,6 @@
 .nav_bar {
   max-width: 1400px;
   margin: 0px auto;
-
 }
 
 .nav_bar ul li {
@@ -150,7 +147,6 @@
   /* padding: 1%; */
 
   margin: 0px auto;
-   
 }
 
 .banner {
@@ -165,11 +161,9 @@
 }
 
 .banner_text {
-
   width: 65%;
   /* padding-let: 9%; */
   padding: 4% 7%;
-   
 }
 .starting {
   font-size: 3em;
@@ -274,8 +268,6 @@ aside {
   margin-left: 1%;
   width: 32.5%;
   /* height: max-content; */
-
-   
 }
 
 .asider {
@@ -293,7 +285,6 @@ aside {
   /* position: relative; */
   /* top: 0px; */
   justify-content: space-evenly;
-  
 }
 
 .left_aside_svg {
@@ -373,7 +364,7 @@ aside {
 .long_container_main {
   /* justify-content: flex-start; */
   width: 29%;
-  
+
   border-radius: 3px;
   /* border: 5px solid blue; */
 }
@@ -424,7 +415,6 @@ aside {
 .shampoo img {
   width: 100%;
   object-fit: contain;
-   
 }
 
 .progress_bar {
@@ -455,7 +445,7 @@ aside {
   width: 14%;
   border-radius: 5px;
   background-color: var(--very_light_grey);
-  
+
   margin-top: 3%;
   margin-right: 3.5%;
 }
@@ -595,7 +585,6 @@ aside {
   justify-content: flex-start;
   margin: 6% 0%;
   width: 90%;
-  
 }
 
 .textforpic {
@@ -632,9 +621,6 @@ aside {
   border-radius: 5px;
 }
 
- 
- 
-
 .textforpic a {
   text-decoration: none;
   color: var(--light_grey);
@@ -647,7 +633,6 @@ aside {
   /* border: 1px solid blue; */
   margin: 0% 2%;
   width: 100%;
-   
 }
 
 .toptext {
@@ -710,7 +695,6 @@ aside {
   background-color: var(--background_black);
   color: white;
   width: auto;
-  
 }
 
 .lista {
@@ -733,7 +717,6 @@ aside {
   background-color: var(--background_black);
   border-bottom: 1px solid grey;
   align-items: stretch;
-   
 }
 .mainhead {
   width: 200px;
@@ -746,8 +729,6 @@ aside {
   font-weight: bold;
   color: white;
 }
-
- 
 
 .mainhead a {
   font-size: 0.8rem;
@@ -789,10 +770,10 @@ aside {
 /* ======================MEDIA QUERY====================== */
 
 @media screen and (max-width: 1800px) {
-  .navbarbottom, .connectwithus {
+  .navbarbottom,
+  .connectwithus {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 1100px) {
@@ -811,13 +792,11 @@ aside {
   }
   .top_most_strip {
     margin: 0% 5%;
-     
   }
 }
 
 /* ======================MEDIA QUERY FOR TABLET====================== */
 @media screen and (max-width: 821px) {
-  
   .banner {
     width: 100vw;
     background-size: cover;
@@ -827,9 +806,8 @@ aside {
   .banner_text {
     /* border: 1px solid red; */
     width: 60%;
-     
   }
- 
+
   .banner_text p {
     font-size: 1.5em;
     color: var(--light_pink);
@@ -844,16 +822,14 @@ aside {
   .banner_text strong {
     font-size: 1.5em;
   }
-  
 
   .one_small_block {
     /* flex: 1; */
     width: 330px;
-     
+
     margin: 1% 4%;
     /* border: 1px solid red; */
   }
-
 
   .nav_bar {
     display: none;
@@ -865,11 +841,9 @@ aside {
     /* border: 1px solid red; */
   }
 
-
   .leftmostpart {
     width: 50%;
     margin: 0px auto;
-
   }
   .rightmostpart {
     display: flex;
@@ -881,12 +855,9 @@ aside {
   .blocker {
     width: 31%;
     margin: 4% 0.5%;
-    
+
     /* border: 1px solid red; */
   }
-  
-
-
 
   .midpic {
     width: 100%;
@@ -896,14 +867,16 @@ aside {
   }
 
   .items {
-    width: 45%;
+    width: 47%;
+    /* border: 1px solid red; */
+    margin: 3% auto;
   }
 
   .one_card {
     width: 40%;
     /* border: 1px solid red; */
   }
-  
+
   .card2,
   .card3 {
     display: none;
@@ -928,8 +901,6 @@ aside {
 
 /* =========================MEDIA QUERY FOR PHONE======================  */
 @media screen and (max-width: 600px) {
-   
-
   .long_container_main {
     width: 90%;
     margin: 0 auto;
@@ -955,7 +926,6 @@ aside {
     /* border: 1px solid red; */
     width: 100%;
     background-color: rgba(255, 255, 255, 0.8);
-     
   }
 
   .banner_text p {
@@ -1006,7 +976,7 @@ aside {
     display: block;
   }
   .blocker {
-    width:90%;
+    width: 90%;
     /* width: auto; */
     /* margin: auto; */
     padding: 3%;
@@ -1030,13 +1000,10 @@ aside {
   }
 
   .textforpic {
-     
     width: auto;
-     
-     
+
     padding: 8% 5%;
   }
-
 
   .one_card {
     margin: 4%;
@@ -1051,7 +1018,6 @@ aside {
     /* border: 1px solid red; */
     width: 90%;
     margin: 2% 0%;
-     
   }
 
   .navbarbottom {
@@ -1059,5 +1025,3 @@ aside {
     left: 0%;
   }
 }
-
- 
